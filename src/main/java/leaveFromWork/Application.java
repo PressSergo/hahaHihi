@@ -1,7 +1,7 @@
-package sbrf;
+package leaveFromWork;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import sbrf.domain.MetaTableInfo;
+import leaveFromWork.domain.MetaTableInfo;
 import java.io.File;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package sbrf.domain;
+package leaveFromWork.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -6,10 +6,10 @@ import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import sbrf.domain.deserialization.MetaTableInfoDeserialization;
-import sbrf.domain.metaType.Columns;
-import sbrf.domain.metaType.DataMeta;
-import sbrf.domain.metaType.Property;
+import leaveFromWork.domain.deserialization.MetaTableInfoDeserialization;
+import leaveFromWork.domain.metaType.Columns;
+import leaveFromWork.domain.metaType.DataMeta;
+import leaveFromWork.domain.metaType.Property;
 
 import java.util.List;
 

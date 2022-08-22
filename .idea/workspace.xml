@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b53ff7ce-1828-495e-9aa3-51e9d26ae83b" name="Default Changelist" comment="" />
+    <list default="true" id="b53ff7ce-1828-495e-9aa3-51e9d26ae83b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/JsonStruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/JsonStruct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/MetaTableInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/MetaTableInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/FunctionableInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/FunctionableInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaColumnDeserealization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/MetaColumnDeserealization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaDataDeserialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/MetaDataDeserialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaPropertyDeserialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/MetaPropertyDeserialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaTableInfoDeserialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/MetaTableInfoDeserialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/metaType/Columns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/metaType/Columns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/metaType/DataMeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/metaType/DataMeta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/metaType/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/metaType/Property.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sbrf/domain/metaType/FunctionableMetaType.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +31,132 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaTableInfoDeserialization.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/MetaPropertyDeserialization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/test.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="510" column="4" lean-forward="true" selection-start-line="510" selection-start-column="4" selection-end-line="510" selection-end-column="4" />
+              <folding>
+                <element signature="n#!!block;n#table1#0;n#!!top" />
+                <element signature="n#!!block;n#table2#0;n#!!top" />
+                <element signature="n#!!block;n#table1#1;n#!!top" />
+                <element signature="n#!!block;n#table2#1;n#!!top" />
+                <element signature="n#!!block;n#table1#2;n#!!top" />
+                <element signature="n#!!block;n#table2#2;n#!!top" />
+                <element signature="n#!!block;n#table1#3;n#!!top" />
+                <element signature="n#!!block;n#table2#3;n#!!top" />
+                <element signature="n#!!block;n#table1#4;n#!!top" />
+                <element signature="n#!!block;n#table2#4;n#!!top" />
+                <element signature="n#!!block;n#table2#5;n#!!top" />
+                <element signature="n#!!block;n#table1#6;n#!!top" />
+                <element signature="n#!!block;n#table2#6;n#!!top" />
+                <element signature="n#!!block;n#table1#7;n#!!top" />
+                <element signature="n#!!block;n#table2#7;n#!!top" />
+                <element signature="n#!!block;n#table1#8;n#!!top" />
+                <element signature="n#!!block;n#table2#8;n#!!top" />
+                <element signature="n#!!block;n#table1#9;n#!!top" />
+                <element signature="n#!!block;n#table2#9;n#!!top" />
+                <element signature="n#!!block;n#table1#10;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/MetaTableInfoDeserialization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="45" column="64" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/metaType/Columns.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/metaType/DataMeta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/JsonStruct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/MetaTableInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="503">
+              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/metaType/Property.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,6 +179,9 @@
       <find>add</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -55,7 +195,6 @@
         <option value="$PROJECT_DIR$/src/main/java/sbrf/domain/metaType/Data.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaColumnTableDesirilization.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/test.json" />
         <option value="$PROJECT_DIR$/src/main/java/sbrf/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/sbrf/domain/metaType/FunctionableMetaType.java" />
         <option value="$PROJECT_DIR$/src/main/java/sbrf/domain/metaType/Columns.java" />
@@ -68,6 +207,7 @@
         <option value="$PROJECT_DIR$/src/main/java/sbrf/domain/JsonStruct.java" />
         <option value="$PROJECT_DIR$/src/main/java/sbrf/domain/MetaTableInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaTableInfoDeserialization.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/test.json" />
       </list>
     </option>
   </component>
@@ -88,6 +228,7 @@
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -125,7 +266,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sbrf" type="462c0819:PsiDirectoryNode" />
+              <item name="leaveFromWork" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sparkJob" type="b2602c69:ProjectViewProjectNode" />
@@ -133,7 +274,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sbrf" type="462c0819:PsiDirectoryNode" />
+              <item name="leaveFromWork" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -142,7 +283,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sbrf" type="462c0819:PsiDirectoryNode" />
+              <item name="leaveFromWork" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="deserialization" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -161,6 +302,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -185,12 +327,12 @@
   </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sbrf.Application" />
+      <option name="MAIN_CLASS_NAME" value="leaveFromWork.Application" />
       <module name="sparkJob" />
       <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/main/resources/spark_example.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sbrf.*" />
+          <option name="PATTERN" value="leaveFromWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,18 +357,18 @@
       <option name="presentableId" value="Default" />
       <updated>1660116139627</updated>
       <workItem from="1660116143332" duration="7175000" />
-      <workItem from="1660633024817" duration="20419000" />
+      <workItem from="1660633024817" duration="21917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27594000" />
+    <option name="totallyTimeSpent" value="29092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.23137973" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.23137973" />
       <window_info id="Structure" order="1" sideWeight="0.50076103" side_tool="true" weight="0.23137973" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -235,7 +377,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -264,72 +406,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaTableInfoDeserialization.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="118" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaTableInfoDeserialization.java</url>
-          <line>60</line>
-          <properties />
-          <option name="timeStamp" value="119" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaTableInfoDeserialization.java</url>
-          <line>59</line>
-          <properties />
-          <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaTableInfoDeserialization.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="123" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaTableInfoDeserialization.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="125" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaTableInfoDeserialization.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="126" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaTableInfoDeserialization.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaTableInfoDeserialization.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaTableInfoDeserialization.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaTableInfoDeserialization.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="137" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -493,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -514,41 +583,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbrf/domain/metaType/FunctionableMetaType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbrf/domain/metaType/DataMeta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbrf/domain/metaType/Property.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbrf/domain/metaType/Columns.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/FunctionableInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/FunctionableInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
@@ -562,73 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="651" column="8" selection-start-line="651" selection-start-column="8" selection-end-line="651" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbrf/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbrf/domain/MetaTableInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbrf/domain/JsonStruct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaDataDeserialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaPropertyDeserialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaColumnDeserealization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -674,13 +642,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaTableInfoDeserialization.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/MetaColumnDeserealization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        <state relative-caret-position="345">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/MetaDataDeserialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/MetaPropertyDeserialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/metaType/Columns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/metaType/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbrf/domain/metaType/FunctionableMetaType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/metaType/DataMeta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/MetaTableInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/JsonStruct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/MetaTableInfoDeserialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="45" column="64" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="510" column="4" lean-forward="true" selection-start-line="510" selection-start-column="4" selection-end-line="510" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!block;n#table1#0;n#!!top" />
+            <element signature="n#!!block;n#table2#0;n#!!top" />
+            <element signature="n#!!block;n#table1#1;n#!!top" />
+            <element signature="n#!!block;n#table2#1;n#!!top" />
+            <element signature="n#!!block;n#table1#2;n#!!top" />
+            <element signature="n#!!block;n#table2#2;n#!!top" />
+            <element signature="n#!!block;n#table1#3;n#!!top" />
+            <element signature="n#!!block;n#table2#3;n#!!top" />
+            <element signature="n#!!block;n#table1#4;n#!!top" />
+            <element signature="n#!!block;n#table2#4;n#!!top" />
+            <element signature="n#!!block;n#table2#5;n#!!top" />
+            <element signature="n#!!block;n#table1#6;n#!!top" />
+            <element signature="n#!!block;n#table2#6;n#!!top" />
+            <element signature="n#!!block;n#table1#7;n#!!top" />
+            <element signature="n#!!block;n#table2#7;n#!!top" />
+            <element signature="n#!!block;n#table1#8;n#!!top" />
+            <element signature="n#!!block;n#table2#8;n#!!top" />
+            <element signature="n#!!block;n#table1#9;n#!!top" />
+            <element signature="n#!!block;n#table2#9;n#!!top" />
+            <element signature="n#!!block;n#table1#10;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>

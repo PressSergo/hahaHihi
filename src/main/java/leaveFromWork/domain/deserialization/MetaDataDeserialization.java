@@ -1,11 +1,11 @@
-package sbrf.domain.deserialization;
+package leaveFromWork.domain.deserialization;
 
 import com.fasterxml.jackson.core.JacksonException;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.SneakyThrows;
-import sbrf.domain.metaType.DataMeta;
+import leaveFromWork.domain.metaType.DataMeta;
 
 import java.io.IOException;
 import java.util.List;

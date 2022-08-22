@@ -1,4 +1,4 @@
-package sbrf.domain.deserialization;
+package leaveFromWork.domain.deserialization;
 
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonNode;

@@ -1,12 +1,12 @@
-package sbrf.domain.deserialization;
+package leaveFromWork.domain.deserialization;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
 import lombok.SneakyThrows;
-import sbrf.domain.JsonStruct;
-import sbrf.domain.MetaTableInfo;
+import leaveFromWork.domain.JsonStruct;
+import leaveFromWork.domain.MetaTableInfo;
 import java.lang.reflect.Field;
 import java.util.Iterator;
 import java.util.List;

@@ -1,10 +1,10 @@
-package sbrf.domain.deserialization;
+package leaveFromWork.domain.deserialization;
 
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.SneakyThrows;
-import sbrf.domain.metaType.Columns;
+import leaveFromWork.domain.metaType.Columns;
 
 import java.util.Iterator;
 import java.util.LinkedList;

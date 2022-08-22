@@ -1,10 +1,10 @@
-package sbrf.domain;
+package leaveFromWork.domain;
 
 import lombok.Getter;
-import sbrf.domain.deserialization.FunctionableInterface;
-import sbrf.domain.deserialization.MetaColumnDeserealization;
-import sbrf.domain.deserialization.MetaDataDeserialization;
-import sbrf.domain.deserialization.MetaPropertyDeserialization;
+import leaveFromWork.domain.deserialization.FunctionableInterface;
+import leaveFromWork.domain.deserialization.MetaColumnDeserealization;
+import leaveFromWork.domain.deserialization.MetaDataDeserialization;
+import leaveFromWork.domain.deserialization.MetaPropertyDeserialization;
 
 @Getter
 public enum JsonStruct {

@@ -1,4 +1,4 @@
-package sbrf.domain.metaType;
+package leaveFromWork.domain.metaType;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
