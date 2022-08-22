@@ -1,0 +1,62 @@
+{
+  "table1": {
+    "columns": {
+      "model_id": {
+        "description": "dick pick",
+        "type": "int"
+      },
+      "model_id2": {
+        "description": "dick pick2",
+        "type": "varchar"
+      },
+      "model_id3": {
+        "description": "dick pick3",
+        "type": "int"
+      },
+      "model_id4": {
+        "description": "dick pick4",
+        "type": "int"
+      }
+    },
+    "proprety": {
+      "stored": "parquet"
+    },
+    "data": [
+      {
+        "model_id": 1,
+        "model_name": "dick_pick",
+        "active": "1"
+      }
+    ]
+  },
+  "table2": {
+    "columns": {
+      "model_id": {
+        "description": "dick pick",
+        "type": "int"
+      },
+      "model_id2": {
+        "description": "dick pick2",
+        "type": "varchar"
+      },
+      "model_id3": {
+        "description": "dick pick3",
+        "type": "int"
+      },
+      "model_id4": {
+        "description": "dick pick4",
+        "type": "int"
+      }
+    },
+    "proprety": {
+      "stored": "parquet"
+    },
+    "data": [
+      {
+        "model_id": 1,
+        "model_name": "dick_pick",
+        "active": "1"
+      }
+    ]
+  }
+}

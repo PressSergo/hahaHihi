@@ -1,0 +1,12 @@
+#!/bin/bash
+
+export SPARK_SUBMIT_HOME="/usr/local/Cellar/apache-spark/3.3.0"
+export MAVEN_SOURCE_JAR="/Users/sergei/Desktop/sparkJob/target/sparkJob-1.0-SNAPSHOT.jar"
+export FILE_TO_COUNT="/Users/sergei/Desktop/sparkJob/src/main/resources/spark_example.txt"
+
+echo start submit spark
+
+${SPARK_SUBMIT_HOME}/bin/spark-submit \
+    --class sbrf.Application \
+    --master local ${MAVEN_SOURCE_JAR} \
+    ${FILE_TO_COUNT} \
