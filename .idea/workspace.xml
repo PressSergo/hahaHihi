@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b53ff7ce-1828-495e-9aa3-51e9d26ae83b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/JsonStruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/JsonStruct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/MetaTableInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/MetaTableInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/FunctionableInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/FunctionableInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaColumnDeserealization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/MetaColumnDeserealization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaDataDeserialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/MetaDataDeserialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaPropertyDeserialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/MetaPropertyDeserialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/deserialization/MetaTableInfoDeserialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/deserialization/MetaTableInfoDeserialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/metaType/Columns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/metaType/Columns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/metaType/DataMeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/metaType/DataMeta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sbrf/domain/metaType/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leaveFromWork/domain/metaType/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sbrf/domain/metaType/FunctionableMetaType.class" beforeDir="false" />
-    </list>
+    <list default="true" id="b53ff7ce-1828-495e-9aa3-51e9d26ae83b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -357,12 +341,12 @@
       <option name="presentableId" value="Default" />
       <updated>1660116139627</updated>
       <workItem from="1660116143332" duration="7175000" />
-      <workItem from="1660633024817" duration="21917000" />
+      <workItem from="1660633024817" duration="22396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29092000" />
+    <option name="totallyTimeSpent" value="29571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
